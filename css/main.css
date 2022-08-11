@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .container {
+  padding: 1.2em;
+}
+.navbar .home {
+  text-decoration: none;
+  margin-left: 1.2em;
+  font-size: 2em;
+}
+.navbar span {
+  color: yellow;
+}
+
+.page1 .container {
+  font-size: 1.2em;
+  background-image: url(../images/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 1000px;
+  margin: 0;
+  padding: 0;
+}
+.page1 .cen {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 1.2em;
+  margin: 0;
+}
+.page1 .page1-sec2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10em 1em;
+}
+.page1 .reg-form {
+  width: 300px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.632);
+  border-radius: 1em;
+}
+.page1 .reg-form li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.page1 .reg-form ul {
+  margin: 0;
+  padding: 1em 0 2em 1em;
+}
+.page1 .reg-form input, .page1 .reg-form textarea {
+  padding: 5px;
+  margin: 7px 0;
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  width: 70%;
+}
+.page1 .reg-form input:hover, .page1 .reg-form textarea:hover {
+  background-color: rgb(129, 129, 129);
+}
+.page1 .reg-form button {
+  padding: 5px;
+  border: 0;
+  margin-top: 1em;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
